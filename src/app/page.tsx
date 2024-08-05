@@ -39,7 +39,16 @@ export default function Home() {
               Goldofolio helps users track their physical gold portfolios effortlessly. It offers an intuitive dashboard to manage their gold investments.
             </p>
           </div>
+          <div className="mt-4">
+            <a href="https://last-working-day.vercel.app/" target="_blank" className="hover:underline text-xl">
+              Last Day Message Generator
+            </a>
+            <p className="mt-2 text-lg text-gray-300">
+              Automatically generate personalized goodbye messages for your last day at the company
+            </p>
+          </div>
         </section>
+
 
         <section className="my-12 text-center">
           <h2 className="text-3xl font-bold text-white">Founder&apos;s Experience</h2>
