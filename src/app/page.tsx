@@ -47,6 +47,14 @@ export default function Home() {
               Automatically generate personalized goodbye messages for your last day at the company
             </p>
           </div>
+          <div className="mt-4">
+            <a href="https://food-recommendation-app.vercel.app/" target="_blank" className="hover:underline text-xl">
+              Food Recommendator
+            </a>
+            <p className="mt-2 text-lg text-gray-300">
+              Generate food and drink recommendation based on user location and language input
+            </p>
+          </div>
         </section>
 
 
