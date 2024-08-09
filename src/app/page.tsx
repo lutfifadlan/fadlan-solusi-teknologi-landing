@@ -55,6 +55,14 @@ export default function Home() {
               Generate food and drink recommendation based on user location and language input
             </p>
           </div>
+          <div className="mt-4">
+            <a href="https://code-obfuscation.vercel.app/" target="_blank" className="hover:underline text-xl">
+              Code Obfuscator
+            </a>
+            <p className="mt-2 text-lg text-gray-300">
+              Obfuscate code based on code and obfuscated word input
+            </p>
+          </div>
         </section>
 
 
