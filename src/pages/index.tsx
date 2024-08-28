@@ -28,7 +28,7 @@ export default function Home() {
         <meta name="description" content="PT Fadlan Solusi Teknologi - Building technology solutions for the future." />
       </Head>
 
-      <header className="text-gray-900 dark:text-white py-4 shadow-md">
+      <header className="text-gray-900 dark:text-white py-2 shadow-md">
         <div className="container mx-auto flex justify-between items-center px-6">
           <h1 className="text-3xl font-bold"><AnimatedUnderline>PT Fadlan Solusi Teknologi</AnimatedUnderline></h1>
           <Button
@@ -42,16 +42,16 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="container mx-auto p-6">
+      <main className="container mx-auto p-3">
         <motion.section 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="my-12 text-center"
+          className="my-6 text-center"
         >
-          <h2 className="text-4xl font-bold mb-6"><AnimatedUnderline>About the Company</AnimatedUnderline></h2>
+          <h2 className="text-4xl font-bold mb-3"><AnimatedUnderline>About the Company</AnimatedUnderline></h2>
           <Card>
-            <CardContent className="pt-6">
+            <CardContent className="pt-3">
               <p className="text-lg">
                 Fadlan Solusi Teknologi is a company that mainly focuses on solving problems through software technology. One of the primary solutions we offer is Software as a Service (SaaS), providing software solutions to help people solve real-life problems.
               </p>
@@ -63,11 +63,11 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="my-12 text-center"
+          className="my-6 text-center"
         >
-          <h2 className="text-4xl font-bold mb-6"><AnimatedUnderline>About the Founder</AnimatedUnderline></h2>
+          <h2 className="text-4xl font-bold mb-3"><AnimatedUnderline>About the Founder</AnimatedUnderline></h2>
           <Card>
-            <CardContent className="pt-6">
+            <CardContent className="pt-3">
               <p className="text-lg">
                 Hi, I&apos;m Mochamad Lutfi Fadlan, the founder of PT Fadlan Solusi Teknologi. With almost 8 years of experience as a software engineer and 6 years as a tech leader, I have built and managed complex applications and engineering teams. My journey includes significant contributions at Xendit and Vida, where I led projects that handled millions of transactions and scaled engineering teams effectively.
               </p>
@@ -79,9 +79,9 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="my-12"
+          className="my-6"
         >
-          <h2 className="text-4xl font-bold mb-6 text-center"><AnimatedUnderline>Launched SaaS</AnimatedUnderline></h2>
+          <h2 className="text-4xl font-bold mb-3 text-center"><AnimatedUnderline>Launched SaaS</AnimatedUnderline></h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Card>
               <CardHeader>
@@ -164,9 +164,9 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
-          className="my-12"
+          className="my-6"
         >
-          <h2 className="text-4xl font-bold mb-6 text-center"><AnimatedUnderline>Founder&apos;s Experience</AnimatedUnderline></h2>
+          <h2 className="text-4xl font-bold mb-3 text-center"><AnimatedUnderline>Founder&apos;s Experience</AnimatedUnderline></h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Card>
               <CardHeader>
@@ -210,11 +210,11 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.8 }}
-          className="my-12 text-center"
+          className="my-6 text-center"
         >
-          <h2 className="text-4xl font-bold mb-6"><AnimatedUnderline>Contact</AnimatedUnderline></h2>
+          <h2 className="text-4xl font-bold mb-3"><AnimatedUnderline>Contact</AnimatedUnderline></h2>
           <Card>
-            <CardContent className="pt-6">
+            <CardContent className="pt-3">
               <p className="text-lg">Mochamad Lutfi Fadlan</p>
               <p className="text-lg">mochamadlutfifadlan@gmail.com</p>
               <Button className="mt-4" asChild>
@@ -227,7 +227,7 @@ export default function Home() {
         </motion.section>
       </main>
 
-      <footer className="text-gray-900 dark:text-white py-6 text-center shadow-md">
+      <footer className="text-gray-900 dark:text-white py-3 text-center shadow-md">
         <p>&copy; 2024 PT Fadlan Solusi Teknologi. All rights reserved.</p>
       </footer>
     </div>
