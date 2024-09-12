@@ -16,7 +16,6 @@ const BookingCalendar = () => (
     </h2>
     <Card className="shadow-lg max-w-2xl mx-auto">
       <CardContent className="py-4 px-4 sm:px-6">
-        <p className="text-base sm:text-lg mb-4">Schedule a meeting with me using the calendar below:</p>
         <div className="w-full max-w-lg mx-auto">
           <Cal calLink="lutfifadlan" config={{height: '600px'}} />
         </div>
