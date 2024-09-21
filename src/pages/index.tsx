@@ -191,14 +191,14 @@ export default function Home() {
             {/* Make Card heights consistent */}
             {[
               {
-                title: "unsubscribeall - Reclaim Your Inbox",
+                title: "unsubscribeall",
                 description: "Easily manage and unsubscribe from unwanted emails.",
                 image: "/unsubscribeall.png",
                 url: "https://unsubscribeall.co"
               },
               {
-                title: "Last Day Message Generator",
-                description: "Generate personalized goodbye messages.",
+                title: "LastWorkingDay",
+                description: "Generate farewell messages for your last working day with ease.",
                 image: "/last-working-day.png",
                 url: "https://lastworkingday.co/"
               },
@@ -231,6 +231,12 @@ export default function Home() {
                 description: "Obfuscate code based on input.",
                 image: "/code-obfuscator.png",
                 url: "https://code-obfuscation.vercel.app/"
+              },
+              {
+                title: "Indonesia Independence Day 79th",
+                description: "Shows you a brief history of Indonesia's independence day.",
+                image: "/indonesia-independence.png",
+                url: "https://indonesia-independence-79.vercel.app/"
               }
             ].map((project, idx) => (
               <Card key={idx} className="h-full flex flex-col shadow-md">
