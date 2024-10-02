@@ -191,16 +191,22 @@ export default function Home() {
             {/* Make Card heights consistent */}
             {[
               {
-                title: "unsubscribeall",
-                description: "Easily manage and unsubscribe from unwanted emails.",
-                image: "/unsubscribeall.png",
-                url: "https://unsubscribeall.co"
+                title: "Let's Focus",
+                description: "A simple, modern, and powerful to-do list app to help you stay focused and productive.",
+                image: "/lets-focus.png",
+                url: "https://letsfocus.today/"
               },
               {
                 title: "LastWorkingDay",
                 description: "Generate farewell messages for your last working day with ease.",
                 image: "/last-working-day.png",
                 url: "https://lastworkingday.co/"
+              },
+              {
+                title: "unsubscribeall",
+                description: "Easily manage and unsubscribe from unwanted emails.",
+                image: "/unsubscribeall.png",
+                url: "https://unsubscribeall.co"
               },
               {
                 title: "Goldofolio",
