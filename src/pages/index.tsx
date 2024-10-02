@@ -192,7 +192,7 @@ export default function Home() {
             {[
               {
                 title: "Let's Focus",
-                description: "A simple, modern, and powerful to-do list app to help you stay focused and productive.",
+                description: "A simple, modern, and powerful to-do list app to help you stay focused.",
                 image: "/lets-focus.png",
                 url: "https://letsfocus.today/"
               },
