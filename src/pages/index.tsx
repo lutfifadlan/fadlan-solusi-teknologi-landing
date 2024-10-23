@@ -191,6 +191,18 @@ export default function Home() {
             {/* Make Card heights consistent */}
             {[
               {
+                title: "Launch Craft",
+                description: "Generate optimized launch copy for popular product launch platforms.",
+                image: "/launch-craft.png",
+                url: "https://launchcraft.xyz"
+              },
+              {
+                title: "Indie Boilerplate",
+                description: "A boilerplate for indie hackers to launch their product faster.",
+                image: "/indie-boilerplate.png",
+                url: "https://indie-boilerplate.lutfifadlan.com"
+              },
+              {
                 title: "Let's Focus",
                 description: "A simple, modern, and powerful to-do list app to help you stay focused.",
                 image: "/lets-focus.png",
