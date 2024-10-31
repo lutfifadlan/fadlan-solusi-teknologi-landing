@@ -197,6 +197,12 @@ export default function Home() {
                 url: "https://launchcraft.xyz"
               },
               {
+                title: "InspireMe",
+                description: "Motivational wallpapers generator.",
+                image: "/inspireme.png",
+                url: "https://inspireme.site"
+              },
+              {
                 title: "Indie Boilerplate",
                 description: "A boilerplate for indie hackers to launch their product faster.",
                 image: "/indie-boilerplate.png",
@@ -249,6 +255,12 @@ export default function Home() {
                 description: "Obfuscate code based on input.",
                 image: "/code-obfuscator.png",
                 url: "https://code-obfuscation.vercel.app/"
+              },
+              {
+                title: "Fadlan Solusi Teknologi Website",
+                description: "This website you are currently on.",
+                image: "/fadlan-solusi-teknologi.png",
+                url: "https://lutfifadlan.com/"
               },
               {
                 title: "Indonesia Independence Day 79th",
