@@ -191,6 +191,18 @@ export default function Home() {
             {/* Make Card heights consistent */}
             {[
               {
+                title: "Issue Tracker",
+                description: "Track and manage issues efficiently with modern issue tracking system.",
+                image: "/issue-tracker.png",
+                url: "https://issue-dashboard.lutfifadlan.com"
+              },
+              {
+                title: "JustCodeIt",
+                description: "Practice coding by typing the real world and open source code projects.",
+                image: "/justcodeit.png",
+                url: "https://justcodeit-ui.lutfifadlan.com"
+              },
+              {
                 title: "Launch Craft",
                 description: "Generate optimized launch copy for popular product launch platforms.",
                 image: "/launch-craft.png",
