@@ -317,7 +317,7 @@ export default function Home() {
           <Card className="shadow-lg max-w-7xl mx-auto">
             <CardContent className="pt-4">
               <p className="text-lg leading-relaxed">
-                Hi I'm Lutfi, an Engineering Manager, Technical Lead, and Staff Software Engineer with 8+ years of experience building and scaling complex applications across startup stages from pre-seed to unicorn. Led teams of up to 20+ engineers, delivering reliable, high-uptime products handling millions of monthly transactions. Skilled in backend and full-stack development, cloud infrastructure, and agile methodologies. Passionate about leveraging AI to boost productivity and experienced in rapidly building MVPs to validate ideas.
+                Hi I&apos;m Lutfi, an Engineering Manager, Technical Lead, and Staff Software Engineer with 8+ years of experience building and scaling complex applications across startup stages from pre-seed to unicorn. Led teams of up to 20+ engineers, delivering reliable, high-uptime products handling millions of monthly transactions. Skilled in backend and full-stack development, cloud infrastructure, and agile methodologies. Passionate about leveraging AI to boost productivity and experienced in rapidly building MVPs to validate ideas.
               </p>
             </CardContent>
           </Card>
