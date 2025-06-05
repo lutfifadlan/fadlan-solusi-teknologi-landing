@@ -399,9 +399,15 @@ export default function Home() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="text-center"
         >
-          <h2 className="text-4xl font-bold mb-6"><AnimatedUnderline>Portfolio Projects</AnimatedUnderline></h2>
+          <h2 className="text-4xl font-bold mb-6"><AnimatedUnderline>Personal Projects</AnimatedUnderline></h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
+              {
+                title: "Joblet",
+                description: "Simple job board platform for job seekers and employers.",
+                image: "/joblet.png",
+                url: "https://joblet-omega.vercel.app"
+              },
               {
                 title: "Issue Tracker",
                 description: "Track and manage issues efficiently with modern issue tracking system.",
