@@ -403,6 +403,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
+                title: "SyncPoint",
+                description: "Intelligent and reliable appointment management platform that ease collaboration and prevents schedule conflicts",
+                image: "/syncpoint.png",
+                url: "https://appointment-ui.lutfifadlan.com"
+              },
+              {
                 title: "Joblet",
                 description: "Simple job board platform for job seekers and employers.",
                 image: "/joblet.png",
