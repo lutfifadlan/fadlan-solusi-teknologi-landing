@@ -403,6 +403,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
+                title: "SoloDevKit",
+                description: "A comprehensive toolkit designed for solo developers.",
+                image: "/solodevkit.png",
+                url: "https://solodevkit.xyz"
+              },
+              {
                 title: "Supakeep | Supabase Keep-Alive",
                 description: "Keep your Supabase projects active and prevent them from being paused due to inactivity.",
                 image: "/supakeep.png",
