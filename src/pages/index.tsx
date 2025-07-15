@@ -497,6 +497,12 @@ export default function Home() {
                 description: "Generate food and drink recommendations based on user location.",
                 image: "/food-recommendation.png",
                 url: "https://food-recommendation-app.vercel.app/"
+              },
+              {
+                title: "CleanMate",
+                description: "Lightning-fast macOS disk cleaner that scans 30,000+ files per second. Safe, smart cleanup for cache, temp files, and dev artifacts.",
+                image: "/cleanmate.png",
+                url: "https://cleanmate.site"
               }
             ].map((project, idx) => (
               <Card key={idx} className="h-full flex flex-col shadow-md">
